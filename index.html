@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moonow</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Baloo+Bhaina+2?preview.text=TESTE&preview.text_type=custom&query=Baloo+Bhaina+2">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="container">
+    <nav>
+        <img src="./assets/logotipo.png" alt="logo do Moonow">
+        <ul>
+            <li>QUEM SOMOS</li>
+            <li>NOSSO PROPÓSITO</li>
+            <li>SUPORTE</li>
+        </ul>
+    </nav>
+    <main>
+        <form onsubmit="signUp()">
+            <h1>INSCREVA-SE E VIAJE PARA A LUA GRATUITAMENTE</h1>
+            <div class="column">
+            <input id="input_name" placeholder="Nome Completo" type="text" required>
+            <input id="input_email" placeholder="Email" type="email" required>
+            </div>
+            <button id="button_primary" type="submit">Quero ir pra lua!</button>
+            <button id="button_secundary">Mais informações</button>
+        </form>
+        <img src="./assets/hero.png" alt="pesso em um foguete">
+    </main>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
